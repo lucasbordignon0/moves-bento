@@ -4,6 +4,7 @@ import Image from "next/image";
 import { MiniPlayer } from "./components/MiniPlayer";
 import { motion } from "framer-motion";
 import { ExerciseInfo } from "./components/ExerciseInfo";
+import { AdjustWorkout } from "./components/AdjustWorkout";
 
 export default function Home() {
   return (
@@ -48,6 +49,18 @@ export default function Home() {
         </div>
         <div className="flex flex-col w-full gap-2 px-6 pb-8">
           <h2 className="text-2xl font-medium">Exercise Information</h2>
+          <p className="text-text-subtle text-base">
+            Seamlessly track every step, jump, and workout with advanced
+            AI-powered tracking that adapts to your lifestyle
+          </p>
+        </div>
+      </div>
+      <div className="flex w-[406px] h-[428px] flex-col rounded-3xl bg-surface-card-primary">
+        <div className="flex w-full h-full justify-center">
+          <AdjustWorkout />
+        </div>
+        <div className="flex flex-col w-full gap-2 px-6 pb-8">
+          <h2 className="text-2xl font-medium">Adjust you workout</h2>
           <p className="text-text-subtle text-base">
             Seamlessly track every step, jump, and workout with advanced
             AI-powered tracking that adapts to your lifestyle
