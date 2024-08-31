@@ -3,17 +3,35 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+ /* Base Colors */
+   /* Text Colors */
+   --color-text-primary: 25 23 22;  /* RGB for #191716 */
+   --color-text-secondary: 176 174 172;  /* RGB for #b0aeac */
+   --color-text-tertiary: 255 255 255;  /* RGB for #ffffff */
+   --color-text-subtle: 122 120 120;  /* RGB for #7a7878 */
+   --color-text-highlight: 58 148 255;  /* RGB for #3a94ff */
+   --color-text-accent: 249 159 159;  /* RGB for #f99f9f */
+   --color-text-accent-light: 255 222 222;  /* RGB for #ffdede */
+   --color-text-light-transparent: 255 255 255;  /* with 64% opacity in usage */
+   --color-text-dark-transparent: 25 23 22;  /* with 24% opacity in usage */
+   --color-text-disabled: 231 227 224;  /* RGB for #e7e3e0 */
+   --color-text-pressed: 29 123 234;  /* RGB for #1d7bea */
+   --color-text-success: 98 219 128;  /* RGB for #62db80 */
+   --color-text-warning: 255 177 105;  /* RGB for #ffb169 */
+   --color-text-danger: 232 101 93;  /* RGB for #e8655d */
+ 
+   /* Surface Colors */
+   --color-surface-card-primary: 255 255 255;  /* RGB for #ffffff */
+   --color-surface-card-primary-transparent: 255 255 255;  /* with 64% opacity in usage */
+   --color-surface-card-accent: 58 148 255;  /* RGB for #3a94ff */
+   --color-surface-card-dark: 67 67 68;  /* RGB for #434344 */
+   --color-surface-card-accent-transparent-24: 58 148 255;  /* with 24% opacity in usage */
+   --color-surface-card-accent-transparent-16: 58 148 255;  /* with 16% opacity in usage */
+   --color-surface-card-accent-transparent-8: 58 148 255;  /* with 8% opacity in usage */
+   --color-surface-background-primary: 249 245 241;  /* RGB for #f9f5f1 */
+   --color-surface-background-sheet: 255 255 255;  /* RGB for #ffffff */
+   --color-surface-background-secondary: 242 237 232;  /* RGB for #f2ede8 */
+   --color-surface-background-tertiary: 25 23 22;  /* RGB for #191716 */
 }
 
 body {
