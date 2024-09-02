@@ -85,7 +85,7 @@ export function MiniPlayer() {
         </div>
       </div>
       <div className="flex px-4 gap-3 items-center">
-        <button className="flex flex-shrink-0 w-9 h-9 rounded-full bg-surface-background-primary items-center justify-center text-text-primary">
+        <button className="flex flex-shrink-0 w-9 h-9 rounded-full bg-surface-background-primary items-center justify-center text-text-primary hover:bg-surface-background-secondary transition-all active:scale-95">
           <svg
             width="18"
             height="18"
@@ -109,7 +109,7 @@ export function MiniPlayer() {
             Incline Front Raise
           </h3>
         </div>
-        <button className="flex flex-shrink-0 w-11 h-11 rounded-full bg-surface-card-accent items-center justify-center text-text-tertiary">
+        <button className="flex flex-shrink-0 w-11 h-11 rounded-full bg-surface-card-accent items-center justify-center text-text-tertiary hover:bg-text-pressed transition-all active:scale-95">
           <svg
             width="22"
             height="22"
@@ -123,7 +123,7 @@ export function MiniPlayer() {
             />
           </svg>
         </button>
-        <button className="flex flex-shrink-0 w-9 h-9 rounded-full bg-surface-background-primary items-center justify-center text-text-primary">
+        <button className="flex flex-shrink-0 w-9 h-9 rounded-full bg-surface-background-primary items-center justify-center text-text-primary hover:bg-surface-background-secondary transition-all active:scale-95">
           <p className="text-text-primary font-semibold text-[10px]">Skip</p>
         </button>
       </div>
